@@ -1,0 +1,39 @@
+.logo-div{
+
+}
+.main-nav{
+    background: #131921;
+}
+.search-div{
+
+}
+.cart-div{
+
+}
+.location{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.location :hover{
+    color: white;
+}
+#span-addr{
+    font-weight: bolder;
+    font-size: 14px;
+}
+#span-hello{
+    font-size: 14px;
+    opacity: 0.7;
+}
+.span-div{
+    margin-left: 5px;
+}
+.main-location:hover{
+  border: 1px solid white;
+}
+.main-location{
+    border: 1px solid transparent;
+}

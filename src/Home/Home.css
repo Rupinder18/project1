@@ -1,0 +1,117 @@
+.home-main-div{
+    
+    margin:  auto;
+    background: white;
+    color: whitesmoke;
+    padding: 15px;
+}
+#home-hddr{
+    text-align: center;
+
+}
+.home-div-one{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Fira Sans Condensed;
+    padding: 10px;
+    
+}
+#div-two{
+    background: darkslategrey;
+    border-radius: 20px;
+}
+.card-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hddr-div{
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+}
+.hddr-div p{
+    font-size: 20px;
+}
+#img1{
+    width: 500px;
+    height: 300px;
+    border-radius: 25px;
+    opacity: 0.7;
+    transition: all 0.5s;
+}
+#img1:hover{
+    transform: scale(1.2,1.2);
+    opacity: 1;
+}
+#employee-hddr{
+    text-align: center;
+    font-size: 45px;
+    padding: 10px;
+    color: darkslategrey;
+}
+.hddr-img{
+    overflow: hidden;
+    border-radius: 25px;
+   
+}
+#slider-image{
+    width: 350px;
+    height: 300px;
+    margin: 0px 10px;
+}
+.home-slider{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px;
+    border-radius: 20px;
+    overflow-x: scroll;
+    background: darkslategrey;
+    
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.slider-hddr{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    background: darkslategrey;
+}
+@media (max-width:475px){
+    .home-div-one{
+        /* background: chartreuse; */
+        flex-direction: column;
+    }
+    .hddr-div{
+        /* border: 2px solid red; */
+        width: 100%;
+    }
+    .hddr-img{
+        width: 100%;
+        margin: auto;
+        /* border: orange solid; */
+    }
+    #img1{
+        width: 300px;
+        height: 250px;
+        /* border: orchid solid; */
+        margin-left: 50px;
+    }
+    
+        #employee-hddr{
+          font-size: 25px;
+          font-weight: bolder;
+          margin-top: 30px;
+        }
+        #slider-image{
+            width: 250px;
+            height: 250px;
+        }
+    
+}

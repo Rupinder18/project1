@@ -1,0 +1,45 @@
+.signup-main-div{
+   
+    margin: auto;
+    background: darkkhaki;
+}
+#form-div{
+    
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    background: rgba(0,0,0.5)rgba(0,0,0.4);
+    border-radius: 20px;
+}
+#label-div{
+    text-align: center;
+    min-width: 200px;
+    /* border: 1px solid yellow; */
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+#input-div{
+    border-radius: 20px;
+    width: 300px;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+}
+#input-div::placeholder{
+    background: rgba(0,0,0.5),rgba(0,0,0.4);
+
+}
+#btn{
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+}
+@media (max-width:475px){
+    #form-div{
+        width: 100%;
+        
+        
+    }
+}

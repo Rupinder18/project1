@@ -1,0 +1,49 @@
+.footer-div{
+   
+    margin: auto;
+    background: darkslategrey;
+   
+
+}
+#footer-links{
+    text-decoration: none;
+    color: white;
+}
+#footer-links:hover{
+    text-decoration: underline;
+}
+#ui-div{
+    list-style: none;
+    
+}
+.footer-faqs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+   
+}
+.footer-question{
+
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.footer-question:hover{
+    text-decoration: underline;
+}
+
+@media (max-width:475px){
+    .footer-div{
+        background: green;
+    }
+    .footer-faqs{
+        padding: 5px;
+       
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+}

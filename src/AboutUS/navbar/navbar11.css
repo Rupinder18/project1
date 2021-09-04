@@ -1,0 +1,12 @@
+.nbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.nbar1{
+    background-color: darkslategrey;
+    color: black;
+    border: 2px solid green;
+}
