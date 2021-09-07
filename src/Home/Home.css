@@ -88,8 +88,12 @@
         /* background: chartreuse; */
         flex-direction: column;
     }
+    .navlink{
+        margin: 5px;
+    }
     .hddr-div{
         /* border: 2px solid red; */
+        margin-top: 2rem;
         width: 100%;
     }
     .hddr-img{

@@ -6,8 +6,12 @@ import Footer from './component1/Footer/Footer';
 import Home from './Home/Home';
 import Signup from './Signup/Signup';
 import Aboutus from './AboutUS/Aboutus';
+
+import A from './A/A';
 function App() {
   return (
+    <>
+    
     <div className='app-div' >
       <BrowserRouter>
       <Nvbar/>
@@ -18,8 +22,9 @@ function App() {
       </Switch>
       <Footer/>
       </BrowserRouter>
-     
+    
     </div>
+    </>
   );
 }
 

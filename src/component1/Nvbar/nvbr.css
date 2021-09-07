@@ -24,33 +24,80 @@
     justify-content: space-evenly;
   
 }
+
+
 .nav-div{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 15px 30px;
     background: darkslategrey;
-    
+    position: sticky;
+  top:0;
+  z-index: 3;
 }
 @media (max-width:475px){
+    #hamburger{
+        /* display: block;
+        padding-top: 20px; */
+    }
     .nav-div{
-    flex-direction: column;
-    padding: 10px 0px;
+    /* flex-direction: column; */
+    /* padding: 10px 10px; */
     background: black;
+    zindex: 3;
     }
-    .link-div{
-        flex-direction: column;
-       
-        width: 100%;
-        text-align: center;
-       
-    }
+    
+#hamburger div , #hamburger div:after,#hamburger div:before{
+    width: 40px;
+    height: 5px;
+    background-color: wheat;
+    border-radius: 20px;
+}
+#hamburger div:before,
+#hamburger div:after{
+    position: absolute;
+    content: "";
+}
+#hamburger div:before{
+    transform: translateY(-200%);
+}
+#hamburger div:after{
+transform: translateY(200%);
+}
+#menu{
+    
+    z-index: 2;
+width: 100%;
+    position: fixed;
+    transform: translateY(-150%);
+    background: black;
+    margin-left: -30px;
+    padding: 10px;
+}
+#navlink{
+    
+    margin: 0px 10px;
+}
+#hamburger.open div {
+    background: transparent;
+  }
+  #hamburger.open div:before {
+    transform: rotate(45deg);
+  }
+  
+  #hamburger.open div:after {
+    transform: rotate(-45deg);
+  }
+    
     .nav-div1{
         padding: 15px;
     }
-    .links{
-        padding: 0px;
-        border-radius: 0px;
-    }
-    
+   #menu.menu{
+       transform: translateY(76px);
+       
+       
+   }
+ 
 }
