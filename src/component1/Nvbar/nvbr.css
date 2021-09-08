@@ -5,6 +5,9 @@
     font-size: 50px;
    
 }
+#hamburger{
+    display: none;
+}
 .links{
     text-decoration: none;
     font-size: 18px;
