@@ -32,7 +32,7 @@ const Footer = () => {
             <li><a id='footer-links' href='#'>only on bugsy </a></li>
         </ul>
     </div> <div>
-        <ul id='ui-div'>
+        <ul className='uii-div' id='ui-div'>
             <li><a id='footer-links' href='#'>Media center</a></li>
             <li><a id='footer-links' href='#'>Term of use</a></li>
             <li><a id='footer-links' href='#'>Contact us</a></li>
