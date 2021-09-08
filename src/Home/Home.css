@@ -99,13 +99,13 @@
     .hddr-img{
         width: 100%;
         margin: auto;
-        /* border: orange solid; */
+        padding: 15px;
     }
     #img1{
-        width: 300px;
+        width: 350px;
         height: 250px;
-    
-        margin-left: 50px;
+        margin-left: 10px;
+        
     }
     
         #employee-hddr{
