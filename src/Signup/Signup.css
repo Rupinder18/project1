@@ -38,8 +38,20 @@
 }
 @media (max-width:475px){
     #form-div{
-        width: 100%;
-        
-        
+        width: 100%;   
+    }
+    .signup-main-div{
+        padding-top: 50px;
+    }
+    .signup-main-div{
+   
+    
+        background: grey;
+    }
+    #btn{
+        background: blue;
+        color: white;
+        padding: 5px 15px;
+        box-shadow: 1px 3px 7px black;
     }
 }

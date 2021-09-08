@@ -10,7 +10,7 @@ function Signup() {
                <form id='form-div'>
                   <div style={{textAlign:"center",paddingTop:"10px"}}>
                   <label id="label-div">Enter your name :</label>
-                   <input id='input-div' type="text" placeholder="yyeah" ></input>
+                   <input id='input-div' type="text"  ></input>
                   </div> <br/>
                   <div  style={{textAlign:"center"}} >
                   <label id="label-div" >Your Password :</label>
