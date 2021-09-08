@@ -1,5 +1,5 @@
 import React from 'react'
-import "../A/A.css"
+// import "../A/A.css"
 const A = () => {
     
     let open = false;
