@@ -87,6 +87,7 @@
     .home-div-one{
         /* background: chartreuse; */
         flex-direction: column;
+        padding-top: 20px;
     }
     .navlink{
         margin: 5px;
@@ -114,8 +115,11 @@
           margin-top: 30px;
         }
         #slider-image{
-            width: 250px;
-            height: 250px;
+            width: 200px;
+            height: 200px;
         }
-    
+    .home-slider{
+        
+        padding-left: 5px;
+    }
 }
